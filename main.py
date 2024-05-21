@@ -7,7 +7,7 @@ from todo import todo_router
 app = FastAPI()
 
 origins = [
-    "http://127.0.0.1:5501", "http://54.196.26.53/8001"
+    "http://127.0.0.1:5501", "http://54.196.26.53:8001"
 ]
 
 app.add_middleware(
